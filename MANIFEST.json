@@ -1,0 +1,35 @@
+{
+ "collection_info": {
+  "namespace": "jfx",
+  "name": "system",
+  "version": "3.3.0",
+  "authors": [
+   "FX Soubirou <soubirou@yahoo.fr>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "debian",
+   "security",
+   "system",
+   "ubuntu"
+  ],
+  "description": "a collection that update Ubuntu and Debian Operating Systems.",
+  "license": [
+   "MIT"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://gitlab.com/op_so/ansible/system",
+  "documentation": "https://gitlab.com/op_so/ansible/system/-/blob/main/README.md",
+  "homepage": "https://gitlab.com/op_so/ansible/system",
+  "issues": "https://gitlab.com/op_so/ansible/system/-/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "044d4619f960e78a2055801c510ce400634300b1503d366fa34d87f0bebec964",
+  "format": 1
+ },
+ "format": 1
+}

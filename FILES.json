@@ -1,0 +1,453 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f00baa4951efb0ffaeecd168b2afc79f4660962995cdfbf1d619d5050760d838",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "964710bc78edbb53a8f4e236e89e4262c90bace0b3500d622fd1391f7ded5fac",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/files/cntlm_0.92.3_amd64.deb",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2fc87ca5e0c239eedd3bb226ca32e4a4eb383ec85c578eea2f2f5fc646f64aed",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/files/cntlm_0.92.3_arm64.deb",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d5e2f74aa5163325636de667db5c7a1539d585abc0fdada25bd3f15c090f37bf",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "955e55582088bd22157ce1c7d19b78e951e9abd541b5a24e31d13cdeceb83d5a",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6205835df8fb4c2aacd800d106bfd24e86ef78550abc67d9d3e265de33891d41",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a4ce8748f2d93fc50cd0b84b9088a96a19a9d2d32e3b3d3846cf6d3eac88dd45",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/templates/cntlm.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f42261272f9080007b5c46a7428540b237c10599c7ce77ccd98fb255257aef1f",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23ba4df583900eb54c3dc943b44ae835fe78451761c7ee1d9fb22878e652affd",
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cntlm/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63b96d64140a2d4bae2b5f546f89b55376fab6709e1ffa3e081e430c155d9d72",
+   "format": 1
+  },
+  {
+   "name": "roles/ufw",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc1981dd1ac88c40c95a5c63d17e72752b31c70b6b7ec49676953ef01da34120",
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f3cdf1a6fbceef1885a875da02b7ff1b4e647b61b404a6e40874f6555ff7c8fd",
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1546e71de659f4a1ce48b3c45d830e303d823be1a7505d947a5a1b1e490cf408",
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc554567ccb01eacdaf2b70d68022daf321d67767bbb17761e2379501d08feb2",
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/ufw/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad48504b1dec27eb504f319823d96c45c74b6e70a4d0002a06723aa63f230186",
+   "format": 1
+  },
+  {
+   "name": "roles/os_update",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0e1006840a2dabe7479c0ed1d9a7f981d3dd4c47b6a2c2c7bae2ff476bae3f42",
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9eb6b788221c0326f5ab993e8baabaaf5e9e5b766282008f84cb1e353c27d719",
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "40d04827b6285af330128f82c3f1f6e56a395d5bdea08822efbb55573220961b",
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/os_update/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cf5eb2fb0f34ef5069a2417d489cb2eab9a10c1e819687a2d1bbbea8d12f0f7",
+   "format": 1
+  },
+  {
+   "name": "roles/info",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/info/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdf4a0ceff353480e2701c6a2f69c7673558ad95db34b613f35fbfc234b50a54",
+   "format": 1
+  },
+  {
+   "name": "roles/info/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/info/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aa49dcac9c730808fe7717013a29100095217b149922ea3300b99b979a8f8679",
+   "format": 1
+  },
+  {
+   "name": "roles/info/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/info/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fe822ba2a41bbd90f3608a9f89a177752756ca22a7ac305c46a6e9c7f178e36c",
+   "format": 1
+  },
+  {
+   "name": "roles/info/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/info/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "17851579757df7f88ba808b6493e82ad6ee24b5962a02631f78728e543fb7ba0",
+   "format": 1
+  },
+  {
+   "name": "roles/reboot",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c78927dce571a7fa303dc104a91539ad1ba093b739d2b1d82ab7c8f3daa89858",
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0ed51d5728b6c1374d1dab974887ca471b090cfac94380ab7b368688277a40a7",
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fbeee5b7851a11fda4c3f4f639f4d6e1175078d3388dbe5549de9a1600d4a8c",
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/reboot/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "04abc24e52834627db5e1a71ba6ae64e058d8d411053e8f699008ec5db3f9f22",
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cb9dcfb002b66448ec56c177836f97942f72e7eb85666f0fdd81470ec4a23be3",
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8248cfff8c7c0fc2f59e798f2cb5178a7a3187db0391f50955d762f184a2a330",
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/templates/80proxy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c01fbde9e60cea6fe2955b54990eb7392a85e27a09d1b2d8a5c38a328582d547",
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bf0ead7c9d9020fd7a05b80b4e8a1d343e6fd09833052e0c04abdc56291caa3e",
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apt_proxy/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "86ecaa5476960aa132ba6f1c869fbf877109c694be5a74dff6f1a8c343a662ad",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

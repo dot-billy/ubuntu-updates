@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  role_name: apt_proxy
+  namespace: jfx
+  author: FX Soubirou
+  description: Ansible role that configure or unconfigure a proxy for apt on Ubuntu and Debian Operating Systems.
+
+  license: MIT
+
+  min_ansible_version: "2.10"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+        - jammy
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+
+  galaxy_tags:
+    - apt
+    - debian
+    - proxy
+    - system
+    - ubuntu
+
+
+dependencies: []
